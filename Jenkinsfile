@@ -7,6 +7,6 @@ pipeline {
         sh './dradlew build --no-daemon'
         archiveArifacts artifacts: 'dist/trainSchedule.zip'
       }
-    }
+    } 
   }
 }
